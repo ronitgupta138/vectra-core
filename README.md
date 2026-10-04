@@ -1,16 +1,22 @@
-# ⚡ Vectra Core
-
 <div align="center">
 
-```
- __     __        _                   ____                 
- \ \   / /__  ___| |_ _ __ __ _      / ___|___  _ __ ___   
-  \ \ / / _ \/ __| __| '__/ _` |____| |   / _ \| '__/ _ \  
-   \ V /  __/ (__| |_| | | (_| |____| |__| (_) | | |  __/  
-    \_/ \___|\___|\__|_|  \__,_|     \____\___/|_|  \___|  
+```text
+██╗   ██╗███████╗ ██████╗████████╗██████╗  █████╗ 
+██║   ██║██╔════╝██╔════╝╚══██╔══╝██╔══██╗██╔══██╗
+██║   ██║█████╗  ██║        ██║   ██████╔╝███████║
+╚██╗ ██╔╝██╔══╝  ██║        ██║   ██╔══██╗██╔══██║
+ ╚████╔╝ ███████╗╚██████╗   ██║   ██║  ██║██║  ██║
+  ╚═══╝  ╚══════╝ ╚═════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝
+
+ ██████╗ ██████╗ ██████╗ ███████╗
+██╔════╝██╔═══██╗██╔══██╗██╔════╝
+██║     ██║   ██║██████╔╝█████╗  
+██║     ██║   ██║██╔══██╗██╔══╝  
+╚██████╗╚██████╔╝██║  ██║███████╗
+ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝
 ```
 
-**Ultra-Fast In-Memory Vector Search Engine & HNSW Approximate Nearest Neighbor Index in Java 21**
+### **Ultra-Fast In-Memory Vector Search Engine & HNSW Graph Index in Java 21**
 
 [![Java](https://img.shields.io/badge/Java-21%20LTS-0891b2?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.org/projects/jdk/21/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.5-10b981?style=flat-square&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
