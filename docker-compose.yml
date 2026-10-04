@@ -1,0 +1,17 @@
+services:
+  vectra-core:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vectra-core
+    ports:
+      - "8081:8081"
+    environment:
+      - JAVA_OPTS=-Xms512m -Xmx1024m -XX:+UseZGC -XX:+ZGenerational
+      - SPRING_THREADS_VIRTUAL_ENABLED=true
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8081/actuator/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+    restart: unless-stopped

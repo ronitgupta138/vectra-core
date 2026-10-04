@@ -1,0 +1,32 @@
+server:
+  port: 8081
+  compression:
+    enabled: true
+    mime-types: application/json,text/plain,text/html
+    min-response-size: 1024
+
+spring:
+  application:
+    name: vectra-core
+  threads:
+    virtual:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: always
+
+vectra:
+  engine:
+    default-m: 16
+    default-ef-construction: 64
+    default-ef-search: 32
+    preload-demo-collection: true
+    demo-collection-name: "vision-embeddings-128"
+    demo-dimension: 128
+    demo-size: 2000
